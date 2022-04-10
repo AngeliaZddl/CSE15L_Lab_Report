@@ -156,4 +156,4 @@ Now log out the remote and do:
 
 $Thank$ $you!$
 
-$End$
+$-The$ $End-$
