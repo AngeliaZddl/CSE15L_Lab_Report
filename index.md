@@ -5,7 +5,7 @@
 ## Hello everyone, let's get starting with CSE15L today!
 
 ***
-**Part 1 Install Visual Studio Code**
+### Part 1 Install Visual Studio Code
 
 * Go to [Visual Studio Code website](https://code.visualstudio.com).
 * Follow the instruction to download and install the application on your labtop.
@@ -14,7 +14,7 @@
 
 ![alt](VSCode.png)
 
-**Part 2 Connect to a Remote Host**
+### Part 2 Connect to a Remote Host
 
 * Follow the instruction [How-to-Reset-your-Password.pdf](How-to-Reset-your-Password.pdf) to activate your CSE15L server account.
 * For windows users, `install OpenSSH` on your computer before starting.
@@ -41,7 +41,7 @@ Type yes and press enter.
 4. Put in your password as required. You will have a view like this:
 ![alt](LogIn.png)
 
-**Part 3 Run Some Commands**
+### Part 3 Run Some Commands
 
 Now you are connecting with the remote host if you have finished every step. 
 
@@ -58,7 +58,7 @@ Let's _try_ some commands:
 ![alt](Command_cat.png)
 * Ctrl+D (exit)
 
-**Part 4 Moving Files Over SSH with `scp`**
+### Part 4 Moving Files Over SSH with `scp`
 * `scp`: _copy a file (or many files!) from your computer to a remote computer_
 * Create a file called `WhereAmI.java` on your computer.
 
@@ -81,7 +81,7 @@ Operate this step with the special-course account which you are logging.
 ![alt](Command_scp.png)
 The result of `WhereAmI.java` shows that the location of the file is the remote computer you are logging.
 
-**Part 5 Setting an SSH Key**
+### Part 5 Setting an SSH Key
 * Run the followinng commands in your terminal after logging out of the remote:
 
 `# on client (your computer)` (or log out the remote)
@@ -145,7 +145,7 @@ You may have a picture like this:
 
 ![alt](scp_id_rsa.png)
 
-**Part 6 Optimizing Remote Running**
+### Part 6 Optimizing Remote Running
 
 Now log out the remote server and do:
 * `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
