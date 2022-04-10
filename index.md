@@ -162,4 +162,4 @@ _Save you time!_
 
 _-The End-_
 
-_-Thank$ $you!-_
+_-Thank you!-_
