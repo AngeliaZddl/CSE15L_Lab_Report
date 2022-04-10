@@ -1,8 +1,8 @@
-## CSE15L Tutorial
+# CSE15L Tutorial
 
-_By Angelia_
+***By Angelia***
 
-Hello everyone, let's get starting with CSE15L today!
+## Hello everyone, let's get starting with CSE15L today!
 
 ***
 **Part 1 Install Visual Studio Code**
