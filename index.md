@@ -59,8 +59,9 @@ Let's _try_ some commands:
 * Ctrl+D (exit)
 
 **Part 4 Moving Files Over SSH with `scp`**
+* `scp`: _copy a file (or many files!) from your computer to a remote computer_
 * Create a file called `WhereAmI.java` on your computer.
-Content:
+Content of `WhereAmI.java`:
 
 `class WhereAmI {
   public static void main(String[] args) {
@@ -71,4 +72,88 @@ Content:
   }
 }`
 
+* `$ scp WhereAmI.java cs15lsp22app@ieng6.ucsd.edu:~/`
 
+Operate this step with the special-course account which you are logging.
+
+* Do `javac WhereAmI.java` and `java WhereAmI` to run the file and then you will get this:
+![alt](Command_scp.png)
+The result of `WhereAmI.java` shows that the location of the file is the remote computer you are logging.
+
+**Part 5 Setting an SSH Key**
+* Run the followinng commands in your terminal after logging out of the remote:
+
+`# on client (your computer)` (or log out the remote)
+
+`$ ssh-keygen`
+
+`Generating public/private rsa key pair.`
+
+`Enter file in which to save the key (/Users/angeliaz/.ssh/id_rsa): /Users/angeliaz/.ssh/id_rsa` (`<user-name>`should be the name of your computer).
+
+`Enter passphrase (empty for no passphrase):` (Do not type anything and press `enter` directly)
+
+`Enter same passphrase again:` (Press `enter` directly)
+
+`Your identification has been saved in /Users/angeliaz/.ssh/id_rsa`
+
+`Your public key has been saved in /Users/angeliaz/.ssh/id_rsa.pub`
+
+`The key fingerprint is:`
+
+`SHA256:2mcfE+QlQ4a4hcop7W51vVTnRWA/pPKuAPMYTTzJXXQ angeliaz@Angelias-Mini.lan`
+
+`The key's randomart image is:`
+
+`+---[RSA 3072]----+`
+
+`|         o .+ooE |`
+
+`|        = =o..+..|`
+
+`|     o o O o+..o.|`
+
+`|    . = + .oo+. +|`
+
+`|      o S = *.B. |`
+
+`|       = = O.*.*+|`
+
+`|     ..o.+o.oo   |`
+
+`|           +.+.o |`
+
+`|             ..  |`
+
+`+----[SHA256]-----+`
+
+You may have a picture like this:
+![alt](Command_ssh_keygen.png)
+
+* Now we need to copy the public key to `.ssh` directory of your user account on the server.
+
+`$ ssh cs15lsp22app@ieng6.ucsd.edu` (log in you course account)
+
+`<Enter Password>`
+
+`# now on server`
+
+`$ mkdir .ssh` (`mkdir`: make directory)
+
+`$ <logout>`
+
+`# back on client`
+
+`$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22app@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+
+**Part 6 Optimizing Remote Running**
+
+Now log out the remote and do:
+* `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+
+* `$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"`
+![alt](Command_ssh_account_ls.png)
+
+$Thank$ $you!$
+
+$End$
