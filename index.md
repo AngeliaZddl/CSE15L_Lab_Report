@@ -156,7 +156,6 @@ Now log out the remote server and do:
 * `$ sp WhereAmI.java cs15lsp22app@ieng6.ucsd.edu:~/`
 
 * `ssh cs15(sp22app@ieng6.ucsd.edu "javac WhereAmI.java; iava WhereAmI"`
-
 ![alt](multiple_commands.png)
 
 _Save you time!_
