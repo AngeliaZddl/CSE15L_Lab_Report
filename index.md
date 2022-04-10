@@ -160,6 +160,6 @@ Now log out the remote server and do:
 
 _Save you time!_
 
-$-The$ $End-$
+_-The End-_
 
-$-Thank$ $you!-$
+_-Thank$ $you!-_
