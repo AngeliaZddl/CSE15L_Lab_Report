@@ -146,6 +146,7 @@ You may have a picture like this:
 ![keygen](Command_ssh_keygen.png)
 
 * Now we need to copy the public key to `.ssh` directory of your user account on the server.
+
 ```
 $ ssh cs15lsp22app@ieng6.ucsd.edu (log in you course account)
 
@@ -157,11 +158,14 @@ $ <logout> (back on client)
 
 $ scp /Users/angeliaz/.ssh/id_rsa.pub cs15lsp22app@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
+
 ![spc_id](scp_id_rsa.png)
+
 
 ### Part 6 Optimizing Remote Running
 
 Now log out the remote server and do:
+
 * `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
 * `$ ssh cs15lsp22app@ieng6.ucsd.edu "ls"`
