@@ -143,14 +143,24 @@ You may have a picture like this:
 
 `$ scp /Users/angeliaz/.ssh/id_rsa.pub cs15lsp22app@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
+![alt](scp_id_rsa.png)
+
 **Part 6 Optimizing Remote Running**
 
-Now log out the remote and do:
+Now log out the remote server and do:
 * `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
-* `$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"`
+* `$ ssh cs15lsp22app@ieng6.ucsd.edu "ls"`
 ![alt](Command_ssh_account_ls.png)
 
-$Thank$ $you!$
+* `$ sp WhereAmI.java cs15lsp22app@ieng6.ucsd.edu:~/`
+
+* `ssh cs15(sp22app@ieng6.ucsd.edu "javac WhereAmI.java; iava WhereAmI"`
+
+![alt](multiple_commands.png)
+
+_Save you time!_
 
 $-The$ $End-$
+
+$-Thank$ $you!-$
