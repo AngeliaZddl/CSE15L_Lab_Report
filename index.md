@@ -26,7 +26,9 @@
 replace "app" with your special-course account.
 
 3. You will probably recieve a message like this:
+
 ```
+
 ⤇ ssh cs15lsp22app@ieng6.ucsd.edu
 
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
@@ -36,6 +38,7 @@ SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
+
 Type yes and press enter.
 
 4. Put in your password as required. You will have a view like this:
