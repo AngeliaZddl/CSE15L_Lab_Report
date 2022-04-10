@@ -61,6 +61,7 @@ Let's _try_ some commands:
 **Part 4 Moving Files Over SSH with `scp`**
 * `scp`: _copy a file (or many files!) from your computer to a remote computer_
 * Create a file called `WhereAmI.java` on your computer.
+
 Content of `WhereAmI.java`:
 
 `class WhereAmI {
@@ -134,17 +135,13 @@ You may have a picture like this:
 
 `$ ssh cs15lsp22app@ieng6.ucsd.edu` (log in you course account)
 
-`<Enter Password>`
-
-`# now on server`
+`<Enter Password>` (now on server)
 
 `$ mkdir .ssh` (`mkdir`: make directory)
 
-`$ <logout>`
+`$ <logout>` (back on client)
 
-`# back on client`
-
-`$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22app@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+`$ scp /Users/angeliaz/.ssh/id_rsa.pub cs15lsp22app@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
 **Part 6 Optimizing Remote Running**
 
