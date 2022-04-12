@@ -8,7 +8,7 @@
 ### Part 1 Install Visual Studio Code
 
 * Go to [Visual Studio Code website](https://code.visualstudio.com).
-* Follow the instruction to download and install the application on your labtop.
+* Follow the instruction to download and install the application on your computer.
 * **important:** There are versions for all the major operating systems, like OSX (for Macs) and Windows (for PCs). Please make sure the version you download matching your computer.
 * After installing, you should be able to open te window like this(there might be a little different on its appearance, dipending on your system and setting.)
 
