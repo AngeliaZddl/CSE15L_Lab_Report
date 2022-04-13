@@ -171,9 +171,12 @@ Now log out the remote server and do:
 * `$ ssh cs15lsp22app@ieng6.ucsd.edu "ls"`
 ![ssh_account](Command_ssh_account_ls.png)
 
-* `$ spc WhereAmI.java cs15lsp22app@ieng6.ucsd.edu:~/`
+* `$ scp WhereAmI.java cs15lsp22app@ieng6.ucsd.edu:~/`
 
 * `$ ssh cs15(sp22app@ieng6.ucsd.edu "javac WhereAmI.java; iava WhereAmI"`
+
+Here's some examples when you run the commands above.
+Now you can run several commands in one line, and operate files on the remote server without log-in.
 ![commands](multiple_commands.png)
 
 _Save you time!_
