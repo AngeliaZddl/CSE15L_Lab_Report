@@ -176,7 +176,7 @@ Now log out the remote server and do:
 * `$ ssh cs15(sp22app@ieng6.ucsd.edu "javac WhereAmI.java; iava WhereAmI"`
 
 **Here's some examples when you run the commands above.
-Now you can run several commands in one line, and operate files on the remote server without log-in.**
+Now you can run several commands in one line, and operate files on the remote server without log-in and putting in password.**
 ![commands](multiple_commands.png)
 
 _Save you time!_
