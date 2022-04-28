@@ -5,7 +5,7 @@
 
 ### Link to the test file
 
-[testImage.md](https://angeliazddl.github.io/markdown-parser/testImage.html)
+[testImage.md](https://angeliazddl.github.io/markdown-parser/testImage.md)
 
 ### The Symptom
 
@@ -34,7 +34,7 @@ Before the change, the code cannot test the image while it's in the test file. T
 
 ### Link to the test file
 
-[testParen.md](https://angeliazddl.github.io/markdown-parser/testParen.html)
+[testParen.md](https://angeliazddl.github.io/markdown-parser/testParen.md)
 
 ### The Symptom
 Expect output:
@@ -62,7 +62,7 @@ Before the change, the code cannot skip the empty links. I add a if condition to
 
 ### Link to the test file
 
-[testBracket.md](https://angeliazddl.github.io/markdown-parser/testBracket.html)
+[testBracket.md](https://angeliazddl.github.io/markdown-parser/testBracket.md)
 
 ### The Symptom
 
@@ -88,3 +88,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 ### Description
 
 Before the change, the code will run an error if there is only an open bracket following the last link. However we are supposed to return the links before that in the output. To fix this symptom, I add a if condition to check if there is a close bracket following the open bracket.
+
+*** Thank you ***
+
+[Back To Main]()
