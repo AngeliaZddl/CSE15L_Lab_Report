@@ -87,7 +87,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 
 ### Description
 
-Before the change, the code will run an error if there is only an open bracket following the last link. However we are supposed to return the links before that in the output. To fix this symptom, I add a if condition to check if there is a close bracket following the open bracket.
+Before the change, the code will run an error if there is an open bracket following the link without a close one. To fix this error and return the links in the output, I add a if condition to check if there is a close bracket following the open bracket. If not, break the while loop and return the links before this open bracket.
 
 ***Thank you***
 
