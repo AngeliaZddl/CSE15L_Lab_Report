@@ -53,7 +53,7 @@ angeliaz@MacBook-Pro markdown-parser % java MarkdownParse testParen.md
 
 ### Description
 
-Before the change, the code cannot skip the empty links. I add a if condition to check if the link is empty, which means nothing in parens.
+Before the change, the code cannot skip the empty links. It will add an null in the list, a comma before the actual link but we only want to the actual links. Then I add a if condition to check if the link is empty, which means nothing in parens. If not, nothing will be added to the list.
 
 # Third Code Changes
 ### Screenshot of the code change
