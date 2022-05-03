@@ -53,7 +53,7 @@ angeliaz@MacBook-Pro markdown-parser % java MarkdownParse testParen.md
 
 ### Description
 
-Before the change, the code cannot skip the empty links. It will add an null in the list, a comma before the actual link but we only want to the actual links. Then I add a if condition to check if the link is empty, which means nothing in parens. If not, nothing will be added to the list.
+Before the change, the code cannot skip the empty links since there's no condition to check if the parens have anything. Then it will add a null in the list, showing a comma before the actual link but we only want to the actual link. Then I add a if condition to check if the link is empty, which means nothing in parens. If not, nothing will be added to the list.
 
 # Third Code Changes
 ### Screenshot of the code change
@@ -87,7 +87,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 
 ### Description
 
-Before the change, the code will run an error if there is an open bracket following the link without a close one. To fix this error and return the links in the output, I add a if condition to check if there is a close bracket following the open bracket. If not, break the while loop and return the links before this open bracket.
+Before the change, the code will run an error if there is an open bracket following the link without a close one since the `while` loop will keep looking for a close bracket and then go into an infinite loop, which causes the error--out of memory. To fix this error and return the links in the output, I add a if condition to check if there is a close bracket following the open bracket. If not, break the while loop and return the links before this open bracket.
 
 ***Thank you***
 
