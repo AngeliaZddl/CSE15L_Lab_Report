@@ -1,6 +1,8 @@
-# Group Choice 1 – Streamline ssh Configuration
+# CSE15L_Lab_Report3
 
-## `.ssh/config` and `ssh` command.
+## Group Choice 1 – Streamline ssh Configuration
+
+### `.ssh/config` and `ssh` command.
 
 I changed the host name to `Angelia` and then I can use `ssh Angelia` to log in the remote server.
 
@@ -15,6 +17,8 @@ Now I can use some command with the host name I set.
 
 ***You may change the host name whatever you like!***
 
-# Group Choice 2 – Setup Github Access from ieng6
+## Group Choice 2 – Setup Github Access from ieng6
 
-## 
+### 
+
+[Back to Main](https://angeliazddl.github.io/CSE15L_Lab_Report/)
