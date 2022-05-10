@@ -47,9 +47,9 @@
 ### Logging into your ieng6 account after doing this and compiling and running the tests for your repository
 
 **I made some changes for this file, deleting the .png files and then commit and push the changes to the origin main.**
-![MarkdownParse](Markdown_ieng6.png)
-![MarkdownParse](MarkdownParse_lib.png)
-
+![MarkdownParse1](Markdown_ieng6.png)
+![MarkdownParse2](MarkdownParse_lib.png)
+![MarkdownParse3](MarkdownParse_run_ieng6.png)
 
 ### Combining `scp`, `;`, and `ssh`: copy the whole directory and run the tests in one line
 
