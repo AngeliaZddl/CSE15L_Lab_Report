@@ -20,9 +20,9 @@
 ## Group Choice 2 – Setup Github Access from ieng6
 
 ### Public Key
-Here's the ssh stored on Github
+**Here's the ssh stored on Github**
 ![ssh](github_ssh.png)
-Matching the key in my account
+**Matching the key in my account**
 ![ssh2](account_ssh.png)
 
 ### Private Key
