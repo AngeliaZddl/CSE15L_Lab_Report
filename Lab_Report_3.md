@@ -4,18 +4,18 @@
 
 ### `.ssh/config` and `ssh` command.
 
-I changed the host name to `Angelia` and then I can use `ssh Angelia` to log in the remote server.
+I changed the name(after Host) to `Angelia` and then I can use `ssh Angelia` to log in the remote server.
 
 ![Choice1](ChangeHostName.png)
 
 ## `scp` Command
 
-Now I can use some command with the host name I set.
+Now I can use some command with the name I set.
 
 ![scp](Angelia_scp.png)
 ![ls](Angelia_ls.png)
 
-***You may change the host name whatever you like!***
+***You may change that name to whatever you like!***
 
 ## Group Choice 2 – Setup Github Access from ieng6
 
