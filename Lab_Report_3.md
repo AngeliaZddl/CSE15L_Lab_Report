@@ -21,9 +21,9 @@
 
 ### Public Key
 **Here's the ssh stored on Github**
-![ssh](github_ssh.png)
+
 **Matching the key in my account**
-![ssh2](account_ssh.png)
+
 
 ### Private Key
 
