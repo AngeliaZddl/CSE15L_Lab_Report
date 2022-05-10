@@ -19,6 +19,12 @@ Now I can use some command with the host name I set.
 
 ## Group Choice 2 – Setup Github Access from ieng6
 
-### 
+### Public Key
+
+### Private Key
+
+### Running `git` Command While Logging Into ieng6 Account
+
+### Link for the Resulting Commit
 
 [Back to Main](https://angeliazddl.github.io/CSE15L_Lab_Report/)
