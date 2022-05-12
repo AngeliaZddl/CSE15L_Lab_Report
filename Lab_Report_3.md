@@ -34,7 +34,7 @@
 ![commit_and_push](commit_push_ssh.png)
 
 ### Link for the Resulting Commit
-[CSE15L_Skill_Demo5](https://github.com/AngeliaZddl/CSE15L_Skill_Demo5/)
+[CSE15L_Skill_Demo5]https://github.com/AngeliaZddl/CSE15L_Skill_Demo5/commits/main
 
 ***Now it's no needs to put in the password every time while committing and pushing.***
 
