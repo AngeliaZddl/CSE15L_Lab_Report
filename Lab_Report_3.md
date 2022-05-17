@@ -52,7 +52,7 @@
 ![MarkdownParse3](MarkdownParse_run_ieng6.png)
 
 ### Combining `scp`, `;`, and `ssh`: copy the whole directory and run the tests in one line
-***I can compile the MarkdownParseTest.java both on the me local computer and the remote server, like the picture above. But the test always fails while combining the `scp -r` and `ssh` in one line and running it. I worked with tutors several times, checked all the possible ways we could figured out, but haven't solved this problem so far.***
+***I can compile the MarkdownParseTest.java both on the me local computer and the remote server, like the picture above. But the test always fails while combining the `scp -r` and `ssh` in one line and running it. I worked with tutors several times, checked all the possible ways we could figure out, but haven't solved this problem so far.***
 
 **-Thank you-**
 
