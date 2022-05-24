@@ -13,3 +13,7 @@
 ## Lab Report 3
 
 [Lab Report 3](https://angeliazddl.github.io/CSE15L_Lab_Report/Lab_Report_3.html)
+
+## Lab Report 4
+
+[Lab Report 4](https://angeliazddl.github.io/CSE15L_Lab_Report/Lab_Report_4.html)
