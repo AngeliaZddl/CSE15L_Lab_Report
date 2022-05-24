@@ -2,7 +2,7 @@
 
 The ***[link]()*** to markdown-parse repository
 
-The ***[link]()*** to the one reviewed in week 7
+The ***[link](https://github.com/mv5903/markdown-parser)*** to the one reviewed in week 7
 
 ## Snippet 1
 
@@ -27,5 +27,9 @@ Answer:
 *Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.*
 
 Answer: 
+
+## Explanation:
+
+
 
 [Back To Main](https://angeliazddl.github.io/CSE15L_Lab_Report/)
