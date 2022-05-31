@@ -60,7 +60,7 @@ Not pass since the reason below:
 ![res31](result31.png)
 
 ### Running Result for The Lab7 Reviewed `markdown-parser`
-Not pass since the reason below:
+Test Passed
 
 ![res32](result32.png)
 
