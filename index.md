@@ -20,4 +20,4 @@
 
 ## Lab Report 5
 
-[Lab Report 4](https://angeliazddl.github.io/CSE15L_Lab_Report/Lab_Report_5.html)
+[Lab Report 5](https://angeliazddl.github.io/CSE15L_Lab_Report/Lab_Report_5.html)
