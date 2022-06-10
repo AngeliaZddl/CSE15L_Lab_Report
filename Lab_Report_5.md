@@ -36,11 +36,23 @@ I used vimdiff on the results of running a bash for loop on the remote Lunix, li
 
 ***Even though `foo` and `link` are shown as links, which are highlighted in blue in the preview pictures, they are not the links that we are looking for in `MarkdownParser`. The correct output would simply be an empty array list for each.***
 
+### Fix the code from the lab7 on the test `485.md`:
+**The `MarkdownParser.java` from the lab7 does not check if the content between an open parenthesis and a close parenthesis is a link or just meaningless symbols. It prints out the content in the parentheses as a link, even though it is not an actual link. As the usual form of a link, it is not supposed to start with `<` or other symbols, so the simplest method to fix this bug is checking if the character next to the open parenthesis is a symbol: adding `if` conditional sentence before adding the string to the `toReturn`, where is after the `line 37` and before the `line 38`. If it is a symbol, then skip to the next line in the markdown file.**
+
+**Another error is that there are two `System.out.print()` on the `line 37` and `line 49`. It causes the unexpecxted and  duplicated outputs so we need to delete those two lines.**
+
+### The line to fix in `MarkdownParser.java` from lab7:
+
+![lineToFix71](lineToFix71.png)
+
+
+![lineToFix71](lineToFix72.png)
+
 ### Fix the code from the lab9 on the test `485.md`:
-**The `MarkdownParser.java` from the lab9 does not check if the content between an open parenthesis and a close parenthesis is a link or just meaningless symbols. It prints out the content in the parentheses as a link, even though it is not an actual link. As the usual form of a link, it is not supposed to start with `<` or other symbols, so the simplest method to fix this bug is checking if the character next to the open parenthesis is a symbol: adding `if` conditional sentence before get the `potentialLink`, where is after the line 73 and before the line 74. If it is a symbol, then skip to the next line in the markdown file.**
+**The `MarkdownParser.java` from the lab9 does not check if the content between an open parenthesis and a close parenthesis is a link or just meaningless symbols. It prints out the content in the parentheses as a link, even though it is not an actual link. As the usual form of a link, it is not supposed to start with `<` or other symbols, so the simplest method to fix this bug is checking if the character next to the open parenthesis is a symbol: adding `if` conditional sentence before get the `potentialLink`, where is after the `line 73` and before the `line 74`. If it is a symbol, then skip to the next line in the markdown file.**
 
 ### The line to fix in `MarkdownParser.java` from lab9:
-![lineToFix](LineToFix.png)
+![lineToFix91](LineToFix.png)
 
 
 ***Thank you***
